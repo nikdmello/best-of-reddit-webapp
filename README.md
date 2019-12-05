@@ -7,10 +7,17 @@ A Node.js web app that displays the top posts from any specified subreddit. On t
 - Semantic UI (front-end)
 
 ## Instructions
-The web app can be built and ran by running the following command:
-``` 
-node app.js
+- [Download and install Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- Run the npm install command:
 ```
+npm install
+```
+- Start your app locally using the heroku local command (Heroku CLI must be installed):
+```
+heroku local web
+```
+The web app should be running at http://localhost:5000/.
+
 
 ## Link
 https://reddit-app-nikdmello.herokuapp.com/ 
