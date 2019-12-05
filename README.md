@@ -8,7 +8,7 @@ A Node.js web app that displays the top posts from any specified subreddit. On t
 
 ## Instructions (launch app locally)
 - [Download and install Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-- Run the npm install command:
+- Run the npm install command in the local app directory:
 ```
 npm install
 ```
