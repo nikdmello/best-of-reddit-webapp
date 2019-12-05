@@ -6,7 +6,7 @@ A Node.js web app that displays the top posts from any specified subreddit. On t
 - Express.js
 - Semantic UI (front-end)
 
-## Instructions
+## Instructions (launch app locally)
 - [Download and install Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - Run the npm install command:
 ```
