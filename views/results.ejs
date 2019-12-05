@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+
+<div class="ui main text container">
+    <div class="ui huge header">Your Search Results:</div>
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+            <% data["data"]["children"].forEach(function(post) { %>
+            <div class="item">
+                <div class="content">
+                    <h3><%= post["data"]["title"]%></h3>
+                    <div class="meta">
+                        <div class="upvotes">
+                            <i class="small thumbs up outline icon"></i>
+                            <%= post["data"]["ups"]%> upvotes
+                        </div>
+                    </div>
+                    <div class="extra">
+                        <a class="ui floated purple button" href= http://www.reddit.com<%= post["data"]["permalink"]%>> Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,51 @@
+<%- include("partials/header") %>
+
+<div class="ui main text container">
+  <h1>What's on your mind?</h1>
+
+  <form action="/results" method="GET">
+    <div class="ui form">
+      <div class="field">
+        <label>Search for subreddit:</label>
+        <input type="text" name="search" placeholder="i.e. funny">
+      </div>
+      
+      <div class="inline fields">
+    <label>Top links from: </label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="frequency" checked="checked" value="day">
+        <label>Past 24 hours</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="frequency" value="week">
+        <label>Past week</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="frequency" value="month">
+        <label>Past month</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="frequency" value="year">
+        <label>Past year</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="frequency" value="all">
+        <label>All time</label>
+      </div>
+    </div>
+  </div>
+      
+      <div class="field"><button class="positive ui button">Submit</button></div>
+    </div>
+  </form>
+  
+    

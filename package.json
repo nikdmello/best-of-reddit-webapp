@@ -1,0 +1,20 @@
+{
+  "name": "reddit-app",
+  "version": "1.0.0",
+  "description": "a web app that uses Reddit’s API to show the top articles in a given subreddit. The web app UI fetches data from the REST API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "nikdmello",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
